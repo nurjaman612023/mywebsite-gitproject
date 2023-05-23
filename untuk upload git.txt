@@ -1,0 +1,12 @@
+Untuk masalah ini pertama kamu perlu melakukan commit local repository mu. Berikut langkahnya:
+
+git add .
+git commit -m "local_commit_message"
+Kemudian pasikan apakah ada perubahan dalam online repository. Barangkali ada rekan anda atau orang lain yang melakukan update pada online repository anda yang mana anda belum melakukan update pada local repository anda. Oleh sebab itu gunakan perintah berikut agar lebih aman:
+
+git pull
+Baru lakukan new commit dan push ke online repository agar perubahan yang anda lakukan dan perubahan yang anda dapatkan dari online repository sebelumnya dapat di push dengan sukses.
+
+git add .
+git commit -m "local_commit_message"
+git push -u origin <branch>
